@@ -1,0 +1,22 @@
+$primary-color: #3292a6;
+$dark-color: #333;
+$light-color: #fff;
+
+$primary-overlay: rgba(50, 146, 166, 0.6);
+
+$Showcase-image: url(../img/mountains.jpg);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 105px;
+}
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+  border-color: $primary-color;
+}

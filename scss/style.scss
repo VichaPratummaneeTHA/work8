@@ -1,0 +1,47 @@
+@import "myConfig";
+@import "myMedia";
+
+// Navebar
+.navbar {
+  box-shadow: 2px 2px 5px $primary-color;
+  opacity: 0.9;
+  background: $light-color;
+
+  .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1.4rem;
+  }
+}
+
+// Showcase
+#showcase {
+  position: relative;
+  background: $Showcase-image;
+  min-height: 600px;
+
+  .primary-overlay {
+    position: absolute;
+    background: $primary-overlay;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+// Authors
+
+#authors {
+  img {
+    margin-top: -50px;
+  }
+
+  .card:hover {
+    background: $primary-color;
+    color: $light-color;
+  }
+
+  .fab {
+    color: $light-color;
+  }
+}
